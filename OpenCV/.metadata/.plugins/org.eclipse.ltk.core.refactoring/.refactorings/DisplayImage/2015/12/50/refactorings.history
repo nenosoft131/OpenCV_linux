@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DisplayImage/Debug/multipleObjectTracking.cpp&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;multipleObjectTracking.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/multipleObjectTracking.cpp" name="main.cpp" stamp="1449935341829" updateReferences="true"/>
+</session>

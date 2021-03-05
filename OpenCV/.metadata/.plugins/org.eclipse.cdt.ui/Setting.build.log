@@ -1,0 +1,7 @@
+20:59:36 **** Clean-only build of configuration Debug for project Setting ****
+make clean 
+rm -rf  ./main.o  ./main.d  Setting
+ 
+
+20:59:36 Build Finished (took 69ms)
+

@@ -1,0 +1,15 @@
+15:10:26 **** Build of configuration Release for project abc ****
+make all 
+Building file: ../abc.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"abc.d" -MT"abc.d" -o "abc.o" "../abc.cpp"
+Finished building: ../abc.cpp
+ 
+Building target: abc
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "abc"  ./abc.o   -lopencv_core -lopencv_imgcodecs -lopencv_highgui
+Finished building target: abc
+ 
+
+15:10:27 Build Finished (took 815ms)
+

@@ -1,0 +1,132 @@
+13:43:31 **** Build of configuration Debug for project new ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:94:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i < faces.size(); i++) {
+                          ^
+Finished building: ../main.cpp
+ 
+Building target: new
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "new"  ./main.o   -lopencv_videostab -lopencv_contrib -lopencv_nonfree -lopencv_flann -lopencv_core -lopencv_features2d -lopencv_ml -lopencv_photo -lopencv_stitching -lopencv_highgui -lopencv_video -lopencv_objdetect -lopencv_calib3d -lopencv_imgproc -lopencv_superres
+Finished building target: new
+ 
+13:43:37 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:00:56 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:03:04 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:03:59 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:05:03 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:06:16 **** Incremental Build of configuration Debug for project new ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:94:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i < faces.size(); i++) {
+                          ^
+Finished building: ../main.cpp
+ 
+Building target: new
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "new"  ./main.o   -lopencv_videostab -lopencv_contrib -lopencv_nonfree -lopencv_flann -lopencv_core -lopencv_features2d -lopencv_ml -lopencv_photo -lopencv_stitching -lopencv_highgui -lopencv_video -lopencv_objdetect -lopencv_calib3d -lopencv_imgproc -lopencv_superres
+Finished building target: new
+ 
+14:07:58 **** Incremental Build of configuration Debug for project new ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:94:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i < faces.size(); i++) {
+                          ^
+../main.cpp:124:57: error: expected primary-expression before ‘)’ token
+               box_text = format("Prediction = Unknown", );
+                                                         ^
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+14:08:11 **** Incremental Build of configuration Debug for project new ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:94:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i < faces.size(); i++) {
+                          ^
+Finished building: ../main.cpp
+ 
+Building target: new
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "new"  ./main.o   -lopencv_videostab -lopencv_contrib -lopencv_nonfree -lopencv_flann -lopencv_core -lopencv_features2d -lopencv_ml -lopencv_photo -lopencv_stitching -lopencv_highgui -lopencv_video -lopencv_objdetect -lopencv_calib3d -lopencv_imgproc -lopencv_superres
+Finished building target: new
+ 
+14:08:40 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:11:43 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:21:35 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:21:50 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:22:15 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:22:24 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:22:54 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+14:24:37 **** Incremental Build of configuration Debug for project new ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:94:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i < faces.size(); i++) {
+                          ^
+Finished building: ../main.cpp
+ 
+Building target: new
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "new"  ./main.o   -lopencv_videostab -lopencv_contrib -lopencv_nonfree -lopencv_flann -lopencv_core -lopencv_features2d -lopencv_ml -lopencv_photo -lopencv_stitching -lopencv_highgui -lopencv_video -lopencv_objdetect -lopencv_calib3d -lopencv_imgproc -lopencv_superres
+Finished building target: new
+ 
+21:57:46 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+22:00:12 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+22:04:52 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+22:07:05 **** Incremental Build of configuration Debug for project Settingup ****
+make all 
+make: Nothing to be done for 'all'.
+20:07:58 **** Incremental Build of configuration Debug for project new ****
+make all 
+make: Nothing to be done for 'all'.
+20:12:16 **** Incremental Build of configuration Release for project Test ****
+make all 
+make: Nothing to be done for 'all'.

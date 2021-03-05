@@ -1,0 +1,6 @@
+20:35:33 **** Build of configuration Default for project Multiobjectdetect ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+20:35:33 Build Finished (took 83ms)
+

@@ -1,0 +1,56 @@
+// OpenCV Diplay camera. http://talkera.org/opencv
+#include <opencv2/objdetect/objdetect.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
+#include "/usr/local/include/opencv/cv.h"
+#include "/usr/local/include/opencv/highgui.h"
+
+#include <iostream>
+#include <stdio.h>
+#include <sstream>
+#include <string>
+#include <cstdio>
+
+using namespace std;
+using namespace cv;
+
+int main()
+{
+
+	VideoCapture capture(0); //-1, 0, 1 device id
+	if(!capture.isOpened())
+	{
+		printf("error to initialize camera");
+		return 1;
+	}
+	Mat cap_img,gray_img;
+	while(1)
+	{
+		capture >> cap_img;
+		waitKey(10);
+		cvtColor(cap_img, gray_img, CV_BGR2GRAY);
+		GaussianBlur( gray_img, gray_img, Size(9, 9), 2, 2 );
+
+		vector<Vec3f> circles;
+		HoughCircles( gray_img, circles, CV_HOUGH_GRADIENT, 1, gray_img.rows/8, 200, 100, 0, 0 );
+		for( size_t i = 0; i < circles.size(); i++ )
+		{
+		   Point center(cvRound(circles[i][0]), cvRound(circles[i][1]));
+		   int radius = cvRound(circles[i][2]);
+		   // circle center
+		   circle( src, center, 3, Scalar(0,255,0), -1, 8, 0 );
+		   // circle outline
+		   circle( src, center, radius, Scalar(0,0,255), 3, 8, 0 );
+		 }
+
+
+
+		imshow("Result", cap_img);
+		waitKey(3);
+		char c = waitKey(3);
+		if(c == 27)
+			break;
+	}
+	return 0;
+}

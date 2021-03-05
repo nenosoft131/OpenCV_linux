@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Setting/firest obj.cpp&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;firest obj.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="firest obj.cpp" name="main.cpp" stamp="1450108563895" updateReferences="true"/>
+</session>

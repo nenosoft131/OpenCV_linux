@@ -1,0 +1,6 @@
+23:53:53 **** Clean-only build of configuration Default for project First ****
+make clean 
+make: *** No rule to make target 'clean'.  Stop.
+
+23:53:53 Build Finished (took 68ms)
+
